@@ -1,0 +1,111 @@
+*
+{
+    box-sizing: border-box !important;
+    /*background-color: transparent;*/
+}
+body,html
+{
+    height: 100%;
+    width: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    /* This sets the background image */
+    background: url('Background.png') no-repeat;
+    background-position: right bottom;
+    /* Background image will cover the entire viewport */
+    background-size: 60%;
+    
+}
+.right_container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    padding: 5vh;
+    
+}
+.right_container > *
+{
+    margin-bottom: 2.5vh;
+}
+.greet_cont
+{
+    font-family: "Nothing You Could Do", cursive;
+    flex-shrink: 0;
+    flex-grow: 0;
+    min-width: fit-content;
+    max-width: 20%;
+    /* min
+    height:10%; */
+
+    color:#EAAD00;
+    font-size: 8vh;
+
+}
+.greet_cont > div
+{
+    height:50%;
+    line-height: .9;
+}
+.main_message
+{
+    
+    color: #404040;
+    font-size: 2vh;
+    line-height: 1.6;
+}
+.button_container,.links_container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+form
+{
+    display: contents;
+    /* height: min-content; */
+}
+.write_to_me_bttn
+{
+    display: flexbox;
+    background-color: #FFCE3B;
+    border-style: none;
+    font-size: 2vh;
+    border-radius: 2vh;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.ico
+{
+    display: flexbox;
+    height: 4vh;
+    width: 4vh;
+    margin-right: 2vh;
+}
+a
+{
+    display: contents;
+}
+/* .blog_ico 
+{
+    url();
+}
+
+{
+    background-image:url('blogger.svg');
+}
+.Behance_ico
+{
+    background-image: url('square-behance.svg');
+}
+.LinkedIn_ico
+{
+    background-image: url('linkedin.svg');
+} */

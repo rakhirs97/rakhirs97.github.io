@@ -17,7 +17,7 @@ body{
     background: url('Background.png') no-repeat;
     background-position: right bottom;
     /* Background image will cover the entire viewport */
-    background-size: 60%;
+    background-size: 50%;
     
 }
 .right_container
@@ -99,7 +99,8 @@ a
     .right_container {
         width: 100%;
         padding: 2vh;
-        justify-content: space-between;
+        justify-content: flex-start;
+        /* justify-content: space-between; */
     }
     .greet_cont>*
     {
@@ -108,7 +109,6 @@ a
     body
     {
         background-position:center bottom;
-        background-size: 100%;
-        
+        background-size: 100%;       
     }
 }

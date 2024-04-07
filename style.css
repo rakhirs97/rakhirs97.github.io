@@ -30,7 +30,7 @@ body{
     padding: 5vh;
     
 }
-.right_container > *
+.right_container > div > div
 {
     margin-bottom: 2.5vh;
 }
@@ -76,7 +76,7 @@ form
 {
     text-decoration: none;
     display: block;
-    padding: 0.5vh;
+    padding: 1vh;
     background-color: #FFCE3B;
     border-style: none;
     font-size: 2vh;
@@ -98,5 +98,17 @@ a
 @media (orientation: portrait) {
     .right_container {
         width: 100%;
+        padding: 2vh;
+        justify-content: space-between;
+    }
+    .greet_cont>*
+    {
+        display: contents;
+    }
+    body
+    {
+        background-position:center bottom;
+        background-size: 100%;
+        
     }
 }

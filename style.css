@@ -74,7 +74,9 @@ form
 }
 .write_to_me_bttn
 {
-    display: flexbox;
+    text-decoration: none;
+    display: block;
+    padding: 0.5vh;
     background-color: #FFCE3B;
     border-style: none;
     font-size: 2vh;
@@ -93,19 +95,16 @@ a
 {
     display: contents;
 }
-/* .blog_ico 
-{
-    url();
-}
 
-{
-    background-image:url('blogger.svg');
-}
-.Behance_ico
-{
-    background-image: url('square-behance.svg');
-}
-.LinkedIn_ico
-{
-    background-image: url('linkedin.svg');
-} */
+@media only screen and (max-width: 499px) {
+    /* For tablets and larger devices */
+    .right_container {
+      width: 100%;
+    }
+  }
+  @media only screen and (min-width: 499px) {
+    /* For tablets and larger devices */
+    .right_container {
+      width: 50%;
+    }
+  }

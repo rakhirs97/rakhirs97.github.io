@@ -95,16 +95,8 @@ a
 {
     display: contents;
 }
-
-@media only screen and (max-width: 499px) {
-    /* For tablets and larger devices */
+@media (orientation: portrait) {
     .right_container {
-      width: 100%;
+        width: 100%;
     }
-  }
-  @media only screen and (min-width: 499px) {
-    /* For tablets and larger devices */
-    .right_container {
-      width: 50%;
-    }
-  }
+}

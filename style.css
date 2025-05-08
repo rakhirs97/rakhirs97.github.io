@@ -84,13 +84,19 @@ form
     color: #ffffff;
     font-weight: bolder;
 }
-.ico
-{
-    display: flexbox;
+
+.ico {
     height: 4vh;
     width: 4vh;
     margin-right: 2vh;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
 }
+
+.ico:hover {
+    filter: grayscale(0%);
+}
+
 a
 {
     display: contents;
